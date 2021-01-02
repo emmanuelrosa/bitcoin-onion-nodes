@@ -1,5 +1,5 @@
 # bitcoin-onion-nodes
-A list of bitcoin validating nodes running as Tor onion services.
+A list of bitcoin validating nodes running as Tor onion services. This can be useful as a list of onion-only seed nodes, to get a new bitcoind instance connected.
 
 The nodes can be added to `bitcoind.conf`, like this:
 
