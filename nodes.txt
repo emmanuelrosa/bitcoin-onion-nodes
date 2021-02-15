@@ -11,6 +11,7 @@ aomia3begg4aohyn.onion
 awqkdrm5y7ekiqud.onion:8333
 bfv6xsv74fim4hhy.onion:8333
 bitcoinzi27kiwf6.onion
+bnx4povtqynvwnui5oqm5xcxqvat3j7yzgn6mqciuyszqawhuayvyaid.onion:8333
 cehok4dxukhnoopi.onion:8333
 d27yfxyk52dmvwod.onion:8333
 er4mwkhxzxgavrvo.onion:8333
@@ -18,14 +19,17 @@ fbpaimqpksk44qxh.onion:8333
 fvfcrh3bblpyx47o.onion:8333
 ggvnc3v5pmrlsupw.onion:8333
 gjyfqjn57higyu76.onion:8333
+glm52zywiqrcxuwswvgjsxr5pfeggil7uci4z5tbpvb4rjyu5hwjhtid.onion
 j7yg25vv2mg3wu7j.onion:8333
 k5oymca6ppood7vx.onion:8333
+kpgvmscirrdqpekbqjsvw5teanhatztpp2gl6eee4zkowvwfxwenqaid.onion
 lncmdma3namzrbnx.onion:8333
 lncmdmgoddecttey.onion:8444
 lncmdmx7ezlplcck.onion:8333
 ml3dlyb4rj7ir7ix.onion:8333
 mvdgz5n3pl53txit.onion:8333
 nesxfmano25clfvn.onion:8333
+nqb5q6d4nhp54ziahhm2oxopqwyyulg7nrqwrcmfvwhj7y7xasaeg7ad.onion
 nrrmkgmulpgsbwlt.onion
 orrxr4kfntzawea3.onion:8333
 p2x24gdhasmgcl5j.onion:8333
@@ -39,6 +43,8 @@ vheejqq2v5dkb4xr.onion:8333
 vp4qo7u74cpckygkfoeu4vle2yqmxh7zuxqvtkazp4nbvjnxl2s3e6id.onion
 w4ja2rt6wvqn6rfw.onion:8333
 wgdtskxt3zcpcmhj.onion:8333
+wyg7twmf7t3pfvfpdcfd64wvjj2pkccuui7ew34ovnqung5f623b4yyd.onion
 xjuvj225gf23j3eo.onion:8333
+xspiicyddsdmzxsffzw6z4f22wi2iwyyufkjcaj2qr7cznxymtft5nid.onion
 ygwcypmb2qiotrp3.onion:8333
 z5nt64xh4d3vnll2.onion
