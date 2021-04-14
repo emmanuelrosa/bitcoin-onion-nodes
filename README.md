@@ -1,7 +1,7 @@
 # bitcoin-onion-nodes
 A list of bitcoin validating nodes running as Tor onion services. This can be useful as a list of onion-only seed nodes, to get a new bitcoind instance connected. There's no guarantee of node availability. These nodes are simply known to have existed at a moment in time.
 
-There are currently *435* nodes in this collection.
+There are currently *454* nodes in this collection.
 
 ## Usage
 
