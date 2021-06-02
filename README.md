@@ -1,7 +1,7 @@
 # bitcoin-onion-nodes
 A list of bitcoin validating nodes running as Tor v3 onion services. This can be useful as a list of onion-only seed nodes, to get a new bitcoind instance connected. There's no guarantee of node availability. These nodes are simply known to have existed at a moment in time.
 
-There are currently *208* nodes in this collection.
+There are currently *279* nodes in this collection.
 
 Note: Previous versions of this list also contained v2 onion services. But as of Jun 1 2021, only v3 onion services are now listed. This is in anticipation for the deprecation of v2 addresses in July 2021.
 
@@ -23,13 +23,33 @@ awk -f mknodes.awk < nodes.txt
 
 ## Contributions
 
-If you would like to this list, simply submit a pull request. You should sort the nodes so that the Git diffs are easier to comprehend.
+If you have a Bitcoin Core node and would like to contribute this list, you can run a script like this:
 
 ```
-cp nodes.txt orig.txt
-echo SOMENODE.onion >> orig.txt
-cat orig.txt | sort | uniq > nodes.txt
-rm orig.txt
-git add nodes.txt
-git commit -m "add some nodes"
+#! /bin/bash
+
+newnodes=$(mktemp)
+bitcoin-cli getpeerinfo | jq .[].addr | grep onion | sed 's/\"//g' | awk -f filter-v3.awk > $newnodes
+
+cat nodes.txt >> $newnodes
+cat $newnodes | sort | uniq > nodes.txt
+rm $newnodes
+
+nodecount=`wc -l nodes.txt | cut -d " " -f 1`
+sed -i "4,4s/\*[0-9]*\*/\*$nodecount\*/" README.md
+```
+
+*filter-v3.awk*
+```
+{
+    if(length($0) > 27)
+        printf "%s\n", $0
+}
+```
+
+Then, commit the changes to `nodes.txt` and `README.md`:
+
+```
+git add nodes.txt README.md
+git commit -m "add nodes"
 ```
