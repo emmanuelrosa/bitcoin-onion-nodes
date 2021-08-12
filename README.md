@@ -5,6 +5,16 @@ There are currently *892* nodes in this collection.
 
 Note: Previous versions of this list also contained v2 onion services. But as of Jun 1 2021, only v3 onion services are now listed. This is in anticipation for the deprecation of v2 addresses in July 2021.
 
+## Why?
+
+When I initiallt set up a bitcoind node to use Tor exclusively, the node had difficulty making outbound connections; It could not find peers to connect with. Over time, the node continued to identify more and more peers, so I began to build my own seed list. That list is now in this repo. 
+
+Now, anyone can set up a new Tor-only bitcoind node and use this node list (or realistically, just a small portion of it) to seed the node.
+
+## How?
+
+I got the nodes from `bitcoin-cli getpeerinfo`. Nothing special, just periodic quering.
+
 ## Usage
 
 The nodes can be added to `bitcoind.conf`, like this:
