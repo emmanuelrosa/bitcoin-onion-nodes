@@ -1,7 +1,7 @@
 # bitcoin-onion-nodes
 A list of bitcoin validating nodes running as Tor v3 onion services. This can be useful as a list of onion-only seed nodes, to get a new bitcoind instance connected. There's now also a list of validating nodes running as I2P hidden services. There's no guarantee of node availability. These nodes are simply known to have existed at a moment in time.
 
-There are currently *1212* nodes in this collection.
+There are currently *1224* nodes in this collection.
 
 Note: Previous versions of this list also contained v2 onion services. But as of Jun 1 2021, only v3 onion services are now listed. This is in anticipation for the deprecation of v2 addresses in July 2021.
 
